@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D7E9F7;
+
+   }
+.image-container {
+    position: relative;
+    text-align: center;
+}
+.background-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.image-text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #FFDF00;
+    font-size: 40px;
+    font-weight: bold;
+    left: 7vh;
+    top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.meal-image{
+position: relative;
+right: 100px;
+}
+.random-meal-section p {
+    font-size: 35px; 
+    font-weight: bold; }
+.search {
+    display: flex;
+    align-items: center;
+    border: 2px solid #FFD700;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-top: 220px;
+    position: absolute;
+    top: 20px;
+    right: 700px;
+  }
+.search-input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 200px;
+    font-size: 16px;
+}
+
+.grid p {
+    font-size: 35px;
+    font-weight: bold; 
+}
+b {
+    display: flex;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 150px;
+}
+.hid{
+    display: none;
+}
+h4 {
+    font-size: 30px;
+    margin-right: 1000px;
+    margin-top: 0px;
+}
+h5 {
+    position: relative;
+    bottom: 300px;
+    left: 550px;
+    font-size: 30px;
+    color: aqua;
+}
+.hidden {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    position:relative;
+    gap: 35px;
+    display: none;
+}
+.grid {
+    text-align: center;
+    border-radius: 20px;
+    
+}
+.grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+.ingredients-box {
+    border: 1px solid #ccc;
+
+    padding: 5px;
+    width: 300px; 
+    background-color: #9bcdee;
+    right: 50px; 
+    top: 0;
+}
+
+.meal-details {
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 500px){
+    
+.background-image {
+    width: 120%;
+    height: 30vh; 
+    object-fit: cover;
+}
+.image-text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 3vh;
+    font-weight: bold;
+    color: darkslateblue;
+    
+    padding: 10px 20px;
+    border-radius: 5px;
+    right: 30vh;
+    top: 8vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.random-meal-section p {
+    font-size: 8vh; 
+    font-weight: bold;
+    
+}
+.search {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 40vh;
+    margin-top: 20vh;
+    position: absolute;
+    top: 2vh;
+    right: 5vh;
+
+}
+
+.search-input {
+    padding: 1.5vh;
+    border: none;
+    outline: none;
+    width: 40vh;
+    font-size: 1.5vh;
+
+}
+
+h2 {
+    margin-right: 100vh; 
+    font-size: 4vh;
+}
+
+h4 {
+    font-size: 4vh; 
+    left: 10vh;
+    margin-top: 50vh;   
+}
+
+h5 {
+    position: relative;
+    bottom: 35vh; 
+    left: 10vh; 
+    font-size: 3vh; 
+    color: aqua;
+}
+
+.hidden {
+    display: grid;
+    grid-template-columns: auto ;
+    position: relative;
+    font-size: 5px;
+    left: 3.8vh;
+    grid-template-columns: auto ;
+    gap: 1vh; 
+    display: none;
+    
+}
+.ingredients-box{
+
+font-size: 2vh;
+position: relative;
+left: 10vh;
+}
+
+
+.meal-details{
+    flex-direction: column;
+    bottom: 3vh;
+    text-align: center;
+    
+}
+
+.hidden img {
+    width: 60vh;
+    height: 60vh;
+    border-radius: 100%; /
+  }
+  .meal-image {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.meal-image img {
+    width: 60vh;
+    height: 30vh;
+    margin-left: 18vh;
+    border-radius: 100%;
+   
+    
+    display: block; 
+}
+  
+  .random-meal-section .meal-details p,
+  h4 {
+      
+      font-size: 4vh;
+      left: 10vh;
+  }
+  h2,
+  h4 {
+      text-align: center; 
+      margin: 0 auto; 
+  }
+  
+  
+
+
+
+}
+
